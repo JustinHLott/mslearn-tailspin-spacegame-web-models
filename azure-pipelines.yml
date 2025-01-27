@@ -25,7 +25,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
-  displayName: 'Pack the project - $(buildConfiguration)'
+  displayName: 'Packck the project - $(buildConfiguration)'
   inputs:
     command: 'pack'
     projects: '**/*.csproj'
